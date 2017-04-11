@@ -45,14 +45,16 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
+
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
+
 
 
 /******************************************
@@ -67,18 +69,133 @@ body {
 
 }
 
+
 header {
 
 }
 
 footer {
+  background-color: #121212;
+  margin: 0px;
+  padding: 50px;
+  size: 9px;
+  text-align: center;
 
 }
+
+h1 {
+  text-align: center;
+
+}
+
+h2 {
+  font-color: yellow !important; /* not sure why this isn't working, i tried a few different ways to get the second logo yellow.*/
+}
+
+
+h3 {
+  color: #121212; /*bene header color black*/
+  font-weight: semi-bold;
+  size: 20px;
+}
+
+
+li {
+  list-style-type: disc;
+}
+
+blockquote {
+  display: block;
+  padding: 100px 300px 100px;
+  text-align: center;
+
+}
+
+#logo {
+  font-color: white;
+  font-size: 24px;
+  font-weight: bold; /*extrabold*/
+  margin: 0px;
+  padding: 25px;
+}
+
+
+
+#splash {
+  height: 700px;
+  background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  padding-top: 100px;
+  font-color: white;
+  font-size: 24px;
+  font-weight: 600px;  /*semibold*/
+  margin: 0px; 
+
+}
+
+#benefits {
+  color: #606161;
+  background-color: #f0efef;
+  font-size: 20px;
+  font-weight: 500px; /*extrabold 400 is the same as normal, and 700 is the same as bold */
+  margin: 0px;
+  padding: 100px;
+  /*padding: 200px 0 200px;*/
+
+
+}
+
+
+#testimonial {
+  margin: 0px;
+  font-style: italic;
+  font-size: 18px;
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  padding: 50px 0px 50px;
+}
+
+#signup {
+  margin: 0px;
+  padding: 25px;
+  text-align: center;
+  background-color: #f9e42e;
+
+}
+
+
+.buttonyellow {
+  color: #121212;
+  background-color: #f9e42e;
+  border-radius: 5px; 
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800px;
+  width: 200px;
+  height: 45px;
+  display: block;
+  margin: auto;
+
+}
+
+.buttonblue {
+  color:  #fff;
+  background-color: #033048;
+  align-content: center;
+  border-radius: 5px;
+  text-decoration:  none;
+  font-size: 24px;
+  width: 200px;
+  height: 45px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
 
 
 
